@@ -1,0 +1,92 @@
+body {
+  font-family: helvetica;
+  margin: 0;
+}
+
+.title {
+  color: papayawhip;
+      font-size: 3rem;
+
+}
+
+
+
+.about {
+  background-color: papayawhip;
+  color: palered;
+  height: 100vh; 
+  text-align: center;
+  padding-top: 2rem;
+}
+
+header {
+  background-color: palevioletred;
+  colour: papayawhip;
+  height: 100vh;
+  text-align: center; 
+  padding-top: 2rem;
+  
+}
+
+h1, h2 {
+  marign: 0;
+}
+
+.gallery {
+background-color: palevioletred;
+color: parayawhip; 
+text-align: center; 
+height: 100vh;
+padding-top: 2rem;
+}
+
+.logo { 
+  height: 15rem;
+}
+
+.contact {
+  background-color: papayawhip;
+  color: palevioletred;
+  height: 100vh; 
+  text-align: center;
+  padding-top: 2rem;  
+}
+
+.buddy {
+  width: 12rem;
+  margin-top: 20rem; 
+  
+}
+
+.buddy:hover {
+  width: 14rem; 
+  
+} 
+
+.buddy:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.header { transition: all .6s ease-in-out; }
+.header:hover { transform: scale(2.4); }
